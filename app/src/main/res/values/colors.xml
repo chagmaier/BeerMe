@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="lightBlue">#6cb2fc</color>
     <color name="red">#e80d35</color>
+    <color name="lightTan">#f9d18b</color>
+    <color name="lightGray">#e2e2e2</color>
 </resources>

@@ -5,14 +5,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lightTan"
     tools:context="com.example.chris.beerme.MainActivity">
 
     <android.support.design.widget.BottomNavigationView
+        android:id="@+id/main_nav"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_height="56dp"
         android:layout_alignParentBottom="true"
-        app:itemTextColor="#FFFFFF"
+        app:itemTextColor="#000000"
         android:layout_alignParentStart="true"
+        app:itemBackground="@color/lightGray"
         app:menu="@menu/nav_items"
         >
 
@@ -27,7 +30,7 @@
         android:textColor="@color/lightBlue"
         android:textStyle="bold"
         android:textSize="45sp"
-        android:text="BeerMe!™" />
+        android:text="BeerMe!" />
 
     <TextView
         android:id="@+id/slogan_text"
